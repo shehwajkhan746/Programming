@@ -5,7 +5,7 @@ and copy to that another file and also display it on the screen
 */
 
 #include<stdio.h>
-#include<file.h>
+#include<conio.h>
 main()
 {
 FILE *f1,*f2;
