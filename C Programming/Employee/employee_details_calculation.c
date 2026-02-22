@@ -25,16 +25,16 @@ int main()
     scanf ("%d",&n);
     for (i=1; i<=n; i++)
     {
-        printf("Enter Employee Name: \n");
+        printf("Enter Employee Name: ");
         scanf("%s", e[i].name);
-        printf("Enter Employee Date of Joining: \n");
+        printf("Enter Employee Date of Joining: ");
         scanf("%d %s %d", &e[i].day, e[i].month, &e[i].year);
-        printf("Enter Employee Salary: \n");
+        printf("Enter Employee Salary: ");
         scanf("%f", &e[i].salary);
         
-        printf("%s %d %s %d %f\n", e[i].name, e[i].day, e[i].month, e[i].year, e[i].salary);
+        printf("Employee Name: %s\n, Date of Joining: %d %s %d\n, Salary: %.2f\n", e[i].name, e[i].day, e[i].month, e[i].year, e[i].salary);
     }
-        printf("Enter the month for total salary: \n");
+        printf("Enter the month for total salary: ");
         scanf("%s",month);
     for(i=1; i<=n; i++)
     {
