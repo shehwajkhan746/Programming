@@ -32,7 +32,7 @@ int main()
         printf("Enter Employee Salary: ");
         scanf("%f", &e[i].salary);
         
-        printf("Employee Name: %s\nDate of Joining: %d %s %d\nSalary: %.2f\n", e[i].name, e[i].day, e[i].month, e[i].year, e[i].salary);
+        printf("\nEmployee Name: %s\nDate of Joining: %d %s %d\nSalary: %.2f\n", e[i].name, e[i].day, e[i].month, e[i].year, e[i].salary);
     }
         printf("Enter the month for total salary: ");
         scanf("%s",month);
