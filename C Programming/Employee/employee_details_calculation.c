@@ -34,7 +34,7 @@ int main()
         
         printf("\nEmployee Name: %s\nDate of Joining: %d %s %d\nSalary: %.2f\n", e[i].name, e[i].day, e[i].month, e[i].year, e[i].salary);
     }
-        printf("Enter the month for total salary: ");
+        printf("\nEnter the month for total salary: ");
         scanf("%s",month);
     for(i=1; i<=n; i++)
     {
@@ -42,6 +42,6 @@ int main()
         if(t==0)
         total_salary = total_salary + e[i].salary;
     }
-printf ("The total salary for giving month = %f\n", total_salary);
+printf ("\nThe total salary for given month = %f\n", total_salary);
 return 0;
 }
