@@ -25,7 +25,7 @@ int main()
     scanf ("%d",&n);
     for (i=1; i<=n; i++)
     {
-        printf("Enter Employee Name: ");
+        printf("\nEnter Employee Name: ");
         scanf("%s", e[i].name);
         printf("Enter Employee Date of Joining: ");
         scanf("%d %s %d", &e[i].day, e[i].month, &e[i].year);
