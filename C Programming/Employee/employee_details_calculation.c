@@ -21,7 +21,7 @@ int main()
     int total_salary=0;
     int n,i,t;
     char month[10];
-    printf ("Enter Number Of Employees: \n");
+    printf ("Enter Number Of Employees: ");
     scanf ("%d",&n);
     for (i=1; i<=n; i++)
     {
@@ -32,7 +32,7 @@ int main()
         printf("Enter Employee Salary: ");
         scanf("%f", &e[i].salary);
         
-        printf("Employee Name: %s\n, Date of Joining: %d %s %d\n, Salary: %.2f\n", e[i].name, e[i].day, e[i].month, e[i].year, e[i].salary);
+        printf("Employee Name: %s\nDate of Joining: %d %s %d\nSalary: %.2f\n", e[i].name, e[i].day, e[i].month, e[i].year, e[i].salary);
     }
         printf("Enter the month for total salary: ");
         scanf("%s",month);
