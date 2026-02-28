@@ -60,6 +60,7 @@ User-defined functions are generally placed immediately after the main function.
 ## 2.1. Simple C Programs
 
 #include<stdio.h>
+
 main()
 {
     printf("Hello, World!\n");
