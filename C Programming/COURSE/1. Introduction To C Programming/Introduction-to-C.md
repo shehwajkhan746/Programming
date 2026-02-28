@@ -30,17 +30,20 @@ Sections in C program
 3. Definition Section
 4. Global Declaration Section
 5. Main() Function Section
-</> C
+   ```c
    {
         Declaration Part 
         Executable Part
     }
+   ```
 7. Subprogram Section
-    Function 1
+```c
+   Function 1
     Function 2
     .
     .
-    Function n 
+    Function n
+```
 
 The documentation section consists of a set of comments. They are placed within the delimiters /* and */ (e.g., /*this is a comment*/).
 
@@ -60,7 +63,7 @@ User-defined functions are generally placed immediately after the main function.
 
 ## 2.1. Simple C Programs
 
-</> C
+```c
 #include<stdio.h>
 
 main()
@@ -68,7 +71,7 @@ main()
     printf("Hello, World!\n");
     return 0;
 }
-'''
+```
 
 ## 2.2. Executing a C Program:
 
