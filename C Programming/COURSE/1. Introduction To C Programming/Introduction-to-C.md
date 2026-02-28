@@ -30,11 +30,12 @@ Sections in C program
 3. Definition Section
 4. Global Declaration Section
 5. Main() Function Section
-    {
+</> C
+   {
         Declaration Part 
         Executable Part
     }
-6. Subprogram Section
+7. Subprogram Section
     Function 1
     Function 2
     .
@@ -59,7 +60,7 @@ User-defined functions are generally placed immediately after the main function.
 
 ## 2.1. Simple C Programs
 
-'''bash
+</> C
 #include<stdio.h>
 
 main()
