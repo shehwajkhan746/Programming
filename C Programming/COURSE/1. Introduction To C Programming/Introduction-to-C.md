@@ -1,4 +1,4 @@
-# 1 INTRODUCTION
+# 1. INTRODUCTION
 
 ## 1.1 History and Evolution of the C Programming
 
