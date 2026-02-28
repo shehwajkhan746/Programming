@@ -5,3 +5,22 @@
 C was the offspring of the 'Basic Combined Programming Language' (BCPL) called B developed in the 1960's at Cambridge University. 
 B language was modified by Dennis Ritchie and was implemented at Bell laboratories in 1972. The new language was named C. 
 
+There are several implications to remember:
+
+1. Every data type in C can store only a limited range of values. 
+For example, the int data type cannot represent all possible integers because it has a fixed size and limited range. 
+Similarly, the float data type cannot represent all real (decimal) numbers accurately due to its precision limits.
+
+2. When using a variable of a particular data type, it is important to understand what kind of values it can hold and what operations can be performed on it.
+For instance, certain operators work on the binary (bit-level) representation of integers, such as bitwise operators. 
+These operators are meaningful only for integer types and cannot be applied to floating-point numbers.
+
+3. While declaring a variable, it is necessary to choose an appropriate data type based on the values it will store and the operations that will be performed on it. 
+Selecting the correct data type ensures proper functioning of the program and prevents errors or data loss.
+
+2. FEATURES OF C AND IT BASIC STRUCTURE
+
+Characteristic of C is that its programs are highly protable, even more so than with other high-level languages.
+
+A C program can be viewed as a group of building  blocks called functions. A function is a subroutine that may include one or more statements designed to perform a specific task. 
+
