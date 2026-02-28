@@ -21,6 +21,6 @@ Selecting the correct data type ensures proper functioning of the program and pr
 2. FEATURES OF C AND IT BASIC STRUCTURE
 
 Characteristic of C is that its programs are highly protable, even more so than with other high-level languages.
-
-A C program can be viewed as a group of building  blocks called functions. A function is a subroutine that may include one or more statements designed to perform a specific task. 
+A C program can be viewed as a group of building  blocks called functions. 
+A function is a subroutine that may include one or more statements designed to perform a specific task. 
 
