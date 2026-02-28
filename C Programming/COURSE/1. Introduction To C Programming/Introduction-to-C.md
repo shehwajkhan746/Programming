@@ -59,6 +59,7 @@ User-defined functions are generally placed immediately after the main function.
 
 ## 2.1. Simple C Programs
 
+'''bash
 #include<stdio.h>
 
 main()
@@ -66,6 +67,7 @@ main()
     printf("Hello, World!\n");
     return 0;
 }
+'''
 
 ## 2.2. Executing a C Program:
 
