@@ -41,7 +41,7 @@ Sections in C program
     .
     Function n 
 
-The documentation section consists of a set of comment. They are placed within the delimiters /* and */ (e.g., /*this is a comment*/).
+The documentation section consists of a set of comments. They are placed within the delimiters /* and */ (e.g., /*this is a comment*/).
 
 The link section provides instructions to the compiler to link functions from the system library. 
 The definition section defines all symbolic constants.
@@ -65,4 +65,39 @@ main()
     printf("Hello, World!\n");
     return 0;
 }
+
+2.2. Executing a C Program:
+
+Various compilers, such as GCC (GNU Compiler Collection), are commonly used to compile C programs.
+The first line is practically boilerplate; it will appear in almost all programs we write. 
+It asks that some definitions having to do with the “Standard I/O Library'' be included in ourprogram; these definitions are needed if we are to call the library function printf correctly.
+The second line says that we are defining a function named main. It is the function that will be “called'' first when our program starts running. 
+The empty pair of parentheses indicates that our main function accepts no arguments, that is, there isn't any information which needs to be passed in when the function is called.
+The braces { and } surround a list of statements in C. 
+The line printf("Hello, world!\n"); is the first statement in the program. It asks that the function printf be called; printf is a library function which prints formatted output.
+The parentheses surround printf's argument list: the information which is handed to it which it should act on. The semicolon at the end of the line terminates the statement.
+printf's first (and, in this case, only) argument is the string which it should print. The string, enclosed in double quotes (""), consists of the words “Hello, world!'' followed by a special sequence: \n.
+The sequence \n represents the “ 'new line'' character.
+In general, a function may return a value to its caller, and main is no exception. The return value from main tells the operating system whether it succeeded or not. 
+By convention, a return value of 0 indicates success.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
