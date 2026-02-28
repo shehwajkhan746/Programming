@@ -37,7 +37,7 @@ Sections in C program
     }
    ```
 7. Subprogram Section
-```c
+```
    Function 1
     Function 2
     .
@@ -63,7 +63,7 @@ User-defined functions are generally placed immediately after the main function.
 
 ## 2.1. Simple C Programs
 
-```c
+```
 #include<stdio.h>
 
 main()
