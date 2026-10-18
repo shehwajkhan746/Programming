@@ -1,3 +1,5 @@
+# Add single/multiple users to single/multiple shared mailboxes with Full Access and Send As permissions. 
+
 # Define your users (can be one or multiple)
 $Users = @("user1@yourdomain.com", "user2@yourdomain.com")
 
