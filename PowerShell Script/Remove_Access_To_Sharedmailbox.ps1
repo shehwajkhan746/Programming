@@ -17,7 +17,7 @@ $SharedMailboxes = @(
 # Loop through each mailbox and remove permissions to each user
 foreach ($Mailbox in $SharedMailboxes) {
     foreach ($User in $Users) {
-        Write-Host "Assigning permissions for $User on $Mailbox..." -ForegroundColor Cyan
+        Write-Host "Removing permissions for $User on $Mailbox..." -ForegroundColor Cyan
 
         # Remove Full Access permission
         Remove-MailboxPermission -Identity $Mailbox -User $User `
