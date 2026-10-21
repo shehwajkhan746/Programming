@@ -26,5 +26,11 @@ foreach ($Mailbox in $SharedMailboxes) {
         # Grant Send As permission
         Add-RecipientPermission -Identity $Mailbox -Trustee $User `
             -AccessRights SendAs -Confirm:$false
+        
+        Write-Host "SUCCESS: Granted Full Access to $Mailbox" -ForegroundColor Green     
+    }
+    catch {
+        Write-Host "FAILED: $Mailbox - $($_.Exception.Message)" `
+            -ForegroundColor Red
     }
 }
