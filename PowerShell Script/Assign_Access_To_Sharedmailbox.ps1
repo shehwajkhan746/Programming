@@ -29,8 +29,5 @@ foreach ($Mailbox in $SharedMailboxes) {
         
         Write-Host "SUCCESS: Granted Full Access to $Mailbox" -ForegroundColor Green     
     }
-    catch {
-        Write-Host "FAILED: $Mailbox - $($_.Exception.Message)" `
-            -ForegroundColor Red
-    }
+    
 }
