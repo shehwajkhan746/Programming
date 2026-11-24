@@ -1,23 +1,27 @@
-
+// Write a java program to calculate power of a number using a while loop
 
 import java.util.Scanner;
 
-public class ReverseNumber {
+public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        int number = scanner.nextInt();
-        int reversed = 0;
+        System.out.print("Enter base: ");
+        int base = sc.nextInt();
 
-        while (number != 0) {
-            int digit = number % 10;
-            reversed = reversed * 10 + digit;
-            number /= 10;
+        System.out.print("Enter exponent: ");
+        int exponent = sc.nextInt();
+
+        long result = 1;
+        int count = exponent;
+
+        while (count != 0) {
+            result *= base;
+            count--;
         }
 
-        System.out.println(reversed);
-        scanner.close();
+        System.out.println(base + " ^ " + exponent + " = " + result);
+        sc.close();
     }
 }
-
 

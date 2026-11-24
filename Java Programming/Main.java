@@ -1,12 +1,13 @@
-
+// Write a program to Reverse a Number using a while loop in Java.
 
 
 import java.util.Scanner;
 
-public class ReverseNumber {
+public class Main {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int number = input.nextInt();
+        Scanner scanner = new Scanner(System.in);
+
+        int number = scanner.nextInt();
         int reversed = 0;
 
         while (number != 0) {
@@ -16,6 +17,6 @@ public class ReverseNumber {
         }
 
         System.out.println(reversed);
-        input.close();
+        scanner.close();
     }
 }
