@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "Sample",
+            "projectName": "Programming_d4836197"
+        },
+        {
+            "type": "java",
             "name": "ReverseNumber",
             "request": "launch",
             "mainClass": "ReverseNumber",
